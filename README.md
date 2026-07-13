@@ -17,10 +17,10 @@ El desarrollo del pipeline de Machine Learning se realizó en Python, utilizando
 
 ## Dataset
 Se utilizó Mendeley Data para la búsqueda de datasets previos respecto al área. Nuestro dataset tiene 567 imagenes compuesto por dos clases SIMPLES y CONMINUTAS.
-Se realizo un Data Augmentation con lo siguientes aspectos:
+# Data Augmentation realizada al dataset previo:
 * Rotation: Between -8° and +8°
 * Brightness: Between -20% and +20%
-Danto un total dataset compuesto por el siguiente % (75% / 15% / 10%)
+# Fragmentación del dataset (75% / 15% / 10%)
 * 852 train images (75%)
 * 170 valid images (15%)
 * 113 test images (10%)
