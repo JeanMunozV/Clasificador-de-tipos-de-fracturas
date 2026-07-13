@@ -1,7 +1,7 @@
 # Clasificador-de-tipos-de-fracturas.
 # 🦴 Bone Fracture Detection using Computer Vision
 
-Este repositorio contiene el desarrollo de un modelo de visión por computadora diseñado para la detección y localización de fracturas óseas en radiografías utilizando arquitecturas de aprendizaje profundo.
+Este repositorio contiene el desarrollo de un modelo de visión por computadora diseñado para la detección, localización y clasificación de tipo de fracturas óseas en radiografías utilizando arquitecturas de deep learning. Utilizando un dataset del repositorio Mendeley Data.
 
 ---
 
@@ -13,8 +13,17 @@ El desarrollo del pipeline de Machine Learning se realizó en Python, utilizando
 * **Entorno:** Jupyter Notebook.
 * **Procesamiento de Imágenes:** OpenCV, Pillow (PIL).
 * **Librerias:** PyTorch / TensorFlow / NumPy, Matplotlib, Seaborn.
-* **Modelo utilizado:** Yolo26n
-* **Dataset**: Mendeley
+* **Modelo utilizado:** Yolo26n con 100 epocas.
+
+## Dataset
+Se utilizó Mendeley Data para la búsqueda de datasets previos respecto al área. Nuestro dataset tiene 567 imagenes compuesto por dos clases SIMPLES y CONMINUTAS.
+Se realizo un Data Augmentation con lo siguientes aspectos:
+Rotation: Between -8° and +8°
+Brightness: Between -20% and +20%
+Danto un total dataset compuesto por el siguiente % (75% / 15% / 10%)
+852 train images (75%)
+170 valid images (15%)
+113 test images (10%)
 
 ---
 
