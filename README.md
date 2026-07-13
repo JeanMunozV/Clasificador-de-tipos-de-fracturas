@@ -12,7 +12,7 @@ El desarrollo del pipeline de Machine Learning se realizó en Python, utilizando
 * **Lenguaje:** Python 3
 * **Entorno:** Jupyter Notebook.
 * **Procesamiento de Imágenes:** OpenCV, Pillow (PIL).
-* **Librerias:** PyTorch / TensorFlow / NumPy, Matplotlib, Seaborn.
+* **Librerias:** PyTorch / CV2 / NumPy / Matplotlib / Seaborn / OpenCV 
 * **Modelo utilizado:** Yolo26n con 100 epocas.
 
 ## Dataset
