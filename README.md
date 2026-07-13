@@ -30,16 +30,16 @@ Sigue estos pasos para configurar el entorno y ejecutar el modelo de detección 
 
 ### 1. Clonar el Repositorio
 Abre tu terminal y clona este proyecto en tu computadora:
-1.- git clone link_este_repo
+    git clone link_este_repo
     cd este_repo
-2.- Configurar el Entorno Virtual
+### 2.- Configurar el Entorno Virtual
 Windows: python -m venv venv
         .\venv\Scripts\activate
 Linux: python3 -m venv venv
         source venv/bin/activate
-4.- Instalar dependencias
-    pip install --upgrade pip
-    pip install jupyter notebook ultralytics roboflow opencv-python matplotlib seaborn
+### 4.- Instalar dependencias
+pip install --upgrade pip
+pip install jupyter notebook ultralytics roboflow opencv-python matplotlib seaborn
 
-5.- Iniciar Jupyter Notebook
-    jupyter notebook
+### 5.- Iniciar Jupyter Notebook
+jupyter notebook
